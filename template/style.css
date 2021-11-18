@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@400;500&family=Comfortaa:wght@300&family=Courgette&family=Oswald:wght@200&family=Roboto+Condensed:ital,wght@1,300&display=swap');
 :root {
   --primary-color: rgb(255, 92, 92);
   --primary-variant: #ff2d2d;
@@ -18,6 +19,9 @@
   --on-background-alt: rgba(255, 255, 255, 0.7);
   --background: #121212;
 }
+.intro{
+  font-family: Couretaa;
+}
 
 html {
   box-sizing: border-box;
@@ -26,6 +30,8 @@ html {
 }
 
 body {
+  font-family: Barlow Semi Condensed, sans-serif
+  ;
   margin: 0;
   color: var(--on-background);
   background-color: var(--background);
@@ -39,19 +45,21 @@ section {
   align-items: center;
   flex-direction: column;
 }
-
 h1 {
+  font-family: Courgette;
   font-size: 100px;
   margin-bottom: 0;
 }
 
-h2 {
+h2 { font-family: Barlow Semi Condensed, sans-serif;
+  color: var(--on-background-alt);
   font-size: 32px;
   font-weight: normal;
 }
 
 nav {
   z-index: 10;
+  font-family: Oswald, sans-serif;
   position: fixed;
   font-size: 24px;
   letter-spacing: 3px;
@@ -89,7 +97,7 @@ a:focus {
   border-radius: 10px;
   padding: 10px 20px;
   margin-right: 25px;
-  width: auto;
+  width: 300px;
   background: var(--background);
   box-shadow: var(--box-shadow);
 }
